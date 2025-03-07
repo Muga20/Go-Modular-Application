@@ -1,0 +1,21 @@
+# Ignore binaries and build artifacts
+bin/
+dist/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore Go workspace files
+go.work
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
